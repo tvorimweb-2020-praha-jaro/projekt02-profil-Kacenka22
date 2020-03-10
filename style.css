@@ -20,13 +20,13 @@ body {
 
 .jmeno {
     color: white;
-    font-family: 'Montserrat';
+    font-family: Montserrat, serif;
     font-size: 24px;
 }
 
 p {
     color: #bdc3c7;
-    font-family: 'Source Sans Pro';
+    font-family: 'Source Sans Pro', serif;
 }
 
 .obsah {
@@ -66,6 +66,8 @@ p {
 
 ul {
     padding: 0;
+    margin: 0;
+    list-style: none;
 }
 
 .odkazy a {
@@ -78,19 +80,16 @@ ul {
 }
 
 .portfolio {
-    display: inline-block;
     width: 100%;
     text-align: center;
 }
 
 .facebook {
-    display: inline-block;
     width: 50%;
     text-align: center;
 }
 
 .twitter {
-    display: inline-block;
     border-left: 1px solid #3f464d;
     width: 50%;
     text-align: center;
